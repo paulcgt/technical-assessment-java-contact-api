@@ -8,7 +8,7 @@ The API should allow a client application to add, update, delete, and view conta
 Your API should use common REST standards and should use JSON as its data format.
 
 ## Specifics
-Your RESTful API should be developed in Java using SpringBoot 2 or greater. You may use EJB if you’re not familiar with Spring, but then ensure that you provide us with the application server if necessary.
+Your RESTful API should be developed in Java using SpringBoot 2 or greater. You may use EJB if you’re not familiar with Spring, but then please ensure that it will run in Wildfly AS.
 
 Your application should use an in-memory database such as H2, and use JPA to access the data. We expect to see a full suite of unit tests that achieve a high degree of code coverage and test your solution appropriately.
 
@@ -19,7 +19,7 @@ Save for Maven dependencies, any other external dependencies such as an applicat
 Please ensure that it’s easy to run/deploy your application as we cannot allocate a lot of time to troubleshooting.
 
 ## Deliverables
-1.	A Maven or Gradle Java project with all source code. You may provide your application source in one zip file, or on a public repo such as Github or Bitbucket.
+1.	A Maven Java project with all source code. You may provide your application source in one zip file, or on a public repo such as Github or Bitbucket.
 2.	A readme.md file containing steps to build and deploy. You can optionally provide us with a Docker image that we can pull from Docker Hub.
 3.	If your application requires pre-populated static data, then provide a way to easily populate the database.
 
